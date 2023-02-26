@@ -28,7 +28,7 @@ def base(privatekey):
                 'from': address_wallet,
                 'value': 777000000000000,
                 'gas': gasLimit,
-                'gasPrice': gwei * 000000000,
+                'gasPrice': gwei * 1000000000,
                 'nonce': nonce,
             })
 
